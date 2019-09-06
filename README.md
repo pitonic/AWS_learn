@@ -12,3 +12,20 @@ curl -s https://raw.githubusercontent.com/pitonic/AWS_learn/master/webServer.sh 
 webServer.sh a  # to run localy  
 # example: remoute unstall 
 curl -s https://raw.githubusercontent.com/pitonic/AWS_learn/master/webServer.sh | sudo bash /dev/stdin b
+##
+
+
+#
+# start amazom boot strap
+
+#!/bin/bash
+yum install curl -y
+apt install curl -y 
+curl -s https://raw.githubusercontent.com/pitonic/AWS_learn/master/webServer.sh | sudo bash /dev/stdin b
+#
+echo "error"
+#
+
+# end  amazom boot strap
+#
+
