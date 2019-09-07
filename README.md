@@ -1,9 +1,9 @@
 # AWS_learn
-AWS_learn
+
 
 # to install simple apache and default page
-# 
 curl -s https://raw.githubusercontent.com/pitonic/AWS_learn/master/webServer.sh | sudo bash
+
 
 # to install another Default html
 # available: 1.html, 2.html, 3.html, a.html b.html
@@ -15,9 +15,9 @@ curl -s https://raw.githubusercontent.com/pitonic/AWS_learn/master/webServer.sh 
 ##
 
 
-#
-# start amazom boot strap
 
+# start amazom boot strap
+```
 #!/bin/bash
 yum install curl -y
 apt install curl -y 
@@ -25,7 +25,7 @@ curl -s https://raw.githubusercontent.com/pitonic/AWS_learn/master/webServer.sh 
 #
 echo "error"
 #
-
+```
 # end  amazom boot strap
-#
+
 
