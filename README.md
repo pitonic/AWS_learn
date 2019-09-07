@@ -22,11 +22,12 @@ curl -s https://raw.githubusercontent.com/pitonic/AWS_learn/master/webServer.sh 
 #!/bin/bash
 yum install curl -y
 apt install curl -y 
-curl -s https://raw.githubusercontent.com/pitonic/AWS_learn/master/webServer.sh | sudo bash /dev/stdin b
+curl -s https://raw.githubusercontent.com/pitonic/AWS_learn/master/webServer.sh |\
+sudo bash /dev/stdin b
 #
 echo "error"
 #
 ```
---- end
+--- 
 
 
