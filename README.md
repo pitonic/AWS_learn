@@ -16,7 +16,8 @@ curl -s https://raw.githubusercontent.com/pitonic/AWS_learn/master/webServer.sh 
 
 
 
-# start amazom boot strap
+###  Amazom bootstrap:
+---
 ```
 #!/bin/bash
 yum install curl -y
@@ -26,6 +27,6 @@ curl -s https://raw.githubusercontent.com/pitonic/AWS_learn/master/webServer.sh 
 echo "error"
 #
 ```
-# end  amazom boot strap
+--- end
 
 
